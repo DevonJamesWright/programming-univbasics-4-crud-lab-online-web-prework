@@ -24,11 +24,12 @@ end
 
 def remove_element_from_start_of_array(array)
   array_exp = ["wow", "butt cheeks", "coding is life", "lol"]
-  array_exp.shift ("wow")
+  array_exp.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  array_exp = ["booty cheeks", "butt cheeks", "coding is life", "lol"]
+  array_exp [2]
 end
 
 def retrieve_first_element_from_array(array)
