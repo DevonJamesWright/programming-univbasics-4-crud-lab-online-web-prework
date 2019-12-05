@@ -19,7 +19,7 @@ end
 
 def remove_element_from_end_of_array(array)
   array_exp = ["booty cheeks", "butt cheeks", "coding is life", "lol", "arrays!"]
-  array_exp.push ("arrays!")
+  array_exp.pop ("arrays!")
 end
 
 def remove_element_from_start_of_array(array)
