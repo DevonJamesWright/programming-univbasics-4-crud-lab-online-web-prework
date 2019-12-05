@@ -33,7 +33,7 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  array_exp = ["booty cheeks", "butt cheeks", "coding is life", "lol"]
+  array_exp = ["wow", "butt cheeks", "coding is life", "lol"]
   array_exp [0]
 end
 
@@ -44,5 +44,5 @@ end
 
 def update_element_from_index(array, index_number, element)
 array_exp = ["booty cheeks", "butt cheeks", "coding is life", "lol"]
-array_exp [2] = "okay"
+array_exp [2] = "totally"
 end
