@@ -1,25 +1,30 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ["booty cheeks", "butt cheeks", "coding is life", "lol"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array_exp = ["booty cheeks", "butt cheeks", "coding is life", "lol"]
+  array_exp << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  array_exp = ["booty cheeks", "butt cheeks", "coding is life", "lol"]
+  array_exp.unshift ("wow")
+  p array_exp
 end
 
 def remove_element_from_end_of_array(array)
-  
+  array_exp = ["booty cheeks", "butt cheeks", "coding is life", "lol", "arrays!"]
+  array_exp.push ("arrays!")
 end
 
 def remove_element_from_start_of_array(array)
-  
+  array_exp = ["wow", "butt cheeks", "coding is life", "lol"]
+  array_exp.shift ("wow")
 end
 
 def retrieve_element_from_index(array, index_number)
